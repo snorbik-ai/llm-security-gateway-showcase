@@ -1,4 +1,4 @@
-# LLM Security Gateway
+﻿# LLM Security Gateway
 
 > Document security gateway for AI applications — prompt injection risk analysis, evidence review, and clear decisions: **safe · review · block**.
 
@@ -10,7 +10,7 @@
 **Public showcase** for recruiters, clients, and technical reviewers.  
 Full core implementation is maintained in a private repository.
 
-[Architecture](./docs/architecture.md) · [MVP status](./docs/mvp-status.md) · [Public vs private scope](./docs/public-vs-private.md)
+[Architecture](./docs/architecture.md) · [MVP status](./docs/mvp-status.md) · [Public vs private scope](./docs/public-vs-private.md) · [LinkedIn MVP demo](https://www.linkedin.com/feed/update/urn:li:activity:7468573770484617216/)
 
 ---
 
@@ -92,7 +92,7 @@ Details: [docs/mvp-status.md](./docs/mvp-status.md)
 A cloneable delivery branch is available on the private technical repository:
 
 ```bash
-git clone -b livraison https://github.com/ta-dev-ai/LLM-Security-Gateway.git
+git clone -b livraison https://github.com/snorbik-ai/LLM-Security-Gateway.git
 cd LLM-Security-Gateway
 # Windows: START_FAST.bat
 ```
@@ -118,7 +118,7 @@ See [docs/public-vs-private.md](./docs/public-vs-private.md).
 ## Author
 
 **Tayier NIMAIT** — AI Solutions Engineer  
-[LinkedIn](https://www.linkedin.com/in/tayier-dev-ai-data/) · [GitHub](https://github.com/ta-dev-ai)
+[LinkedIn](https://www.linkedin.com/in/tayier-dev-ai-data/) · [GitHub](https://github.com/snorbik-ai) · [MVP demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7468573770484617216/)
 
 ## License
 

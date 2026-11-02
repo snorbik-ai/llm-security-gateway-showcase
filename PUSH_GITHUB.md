@@ -1,4 +1,4 @@
-# Publier sur GitHub — checklist
+﻿# Publier sur GitHub — checklist
 
 Depot local pret : `C:\Users\ntpar\Dev_IT\Projet_depo\Projet_IA\llm-security-gateway-showcase`
 
@@ -18,7 +18,7 @@ git init
 git add .
 git commit -m "Initial public showcase — LLM Security Gateway"
 git branch -M main
-git remote add origin https://github.com/ta-dev-ai/llm-security-gateway-showcase.git
+git remote add origin https://github.com/snorbik-ai/llm-security-gateway-showcase.git
 git push -u origin main
 ```
 
@@ -40,7 +40,7 @@ git push -u origin main
 
 ## 5. Optionnel — Profile README
 
-Creer `ta-dev-ai/ta-dev-ai` avec tableau des 3 projets phares.
+Creer `snorbik-ai/snorbik-ai` avec tableau des 3 projets phares.
 
 ## 6. Screenshot supplementaire (recommande)
 

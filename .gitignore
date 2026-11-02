@@ -4,3 +4,8 @@ Thumbs.db
 .env
 .venv/
 venv/
+
+# Ajouts de protection GitHub
+*.pt
+*.onnx
+node_modules/

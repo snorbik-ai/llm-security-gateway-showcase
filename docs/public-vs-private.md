@@ -1,6 +1,6 @@
-# Public vs private scope
+﻿# Public vs private scope
 
-This showcase follows the same pattern used for [Solena](https://github.com/ta-dev-ai) and other professional open-core projects.
+This showcase follows the same pattern used for [Solena](https://github.com/snorbik-ai) and other professional open-core projects.
 
 ## What is public (this repository)
 
