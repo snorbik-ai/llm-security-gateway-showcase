@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0d1322"/>
+      <stop offset="100%" stop-color="#121a30"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="glowRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#bg)" rx="16"/>
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.07" stroke="#38bdf8" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="500" y1="0" x2="500" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+    <line x1="900" y1="0" x2="900" y2="500"/>
+    <line x1="1100" y1="0" x2="1100" y2="500"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+  </g>
+
+  <!-- Left Content: Title, Badges & Decisional Matrix -->
+  <g transform="translate(80, 80)">
+    <!-- Badge -->
+    <rect width="210" height="28" rx="14" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+    <text x="105" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#f87171" font-weight="bold" text-anchor="middle">🛡️ AI APPLICATION SECURITY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" fill="#ffffff" font-weight="900">
+      LLM Security Gateway
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#94a3b8">
+      Document Security &amp; Real-time Prompt Injection Firewall
+    </text>
+
+    <!-- Pipeline Decision Pills -->
+    <g transform="translate(0, 160)">
+      <!-- SAFE Pill -->
+      <g transform="translate(0, 0)">
+        <rect width="130" height="42" rx="8" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="1.5"/>
+        <circle cx="24" cy="21" r="5" fill="#10b981"/>
+        <text x="40" y="26" font-family="sans-serif" font-size="14" fill="#10b981" font-weight="bold">SAFE</text>
+      </g>
+      <!-- REVIEW Pill -->
+      <g transform="translate(145, 0)">
+        <rect width="140" height="42" rx="8" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="1.5"/>
+        <circle cx="24" cy="21" r="5" fill="#f59e0b"/>
+        <text x="40" y="26" font-family="sans-serif" font-size="14" fill="#f59e0b" font-weight="bold">REVIEW</text>
+      </g>
+      <!-- BLOCK Pill -->
+      <g transform="translate(300, 0)">
+        <rect width="140" height="42" rx="8" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-width="1.5"/>
+        <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+        <text x="40" y="26" font-family="sans-serif" font-size="14" fill="#ef4444" font-weight="bold">BLOCK</text>
+      </g>
+    </g>
+
+    <!-- Technical Tags -->
+    <g transform="translate(0, 240)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748b">
+        ⚡ Python 3.12 · FastAPI · Ollama Local · FAISS · Deterministic Forensic Audit Trail
+      </text>
+      <text y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#10b981" font-weight="bold">
+        🟢 Sovereign Local-First AI Architecture · Production Ready
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side Visual: Forensic Security Console Mockup -->
+  <g filter="url(#shadow)" transform="translate(680, 70)">
+    <rect width="440" height="340" rx="12" fill="#0b0f19" stroke="#1e293b" stroke-width="1.5"/>
+    <!-- Console Header -->
+    <rect width="440" height="36" rx="12" fill="#141a29"/>
+    <rect y="24" width="440" height="12" fill="#141a29"/>
+    <line x1="0" y1="36" x2="440" y2="36" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="18" r="5" fill="#ef4444"/>
+    <circle cx="36" cy="18" r="5" fill="#f59e0b"/>
+    <circle cx="52" cy="18" r="5" fill="#10b981"/>
+    <text x="220" y="22" font-family="monospace" font-size="11" fill="#64748b" text-anchor="middle">gateway_diagnostic_stream.log</text>
+
+    <!-- Code / Terminal Body -->
+    <g transform="translate(24, 60)" font-family="monospace" font-size="12">
+      <text y="0" fill="#38bdf8">&gt; INGESTION: document_payload.pdf [1.2MB]</text>
+      <text y="28" fill="#94a3b8">&gt; STATIC_AST_SCAN: 0 vulnerabilities</text>
+      <text y="56" fill="#f59e0b">&gt; SEMANTIC_EMBEDDING: FAISS cosine distance</text>
+      <text y="84" fill="#c084fc">&gt; LLM_REASONING: Ollama / Bonsai model</text>
+      <text y="112" fill="#ef4444">&gt; INJECTION_SCORE: 0.89 [CRITICAL DETECTED]</text>
+      
+      <!-- Highlight Box -->
+      <rect x="-8" y="132" width="408" height="50" rx="6" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-width="1"/>
+      <text x="8" y="152" fill="#ef4444" font-weight="bold">&gt; DECISION: BLOCK_TRANSMISSION</text>
+      <text x="8" y="170" fill="#94a3b8" font-size="11">Reason: Adversarial context override attempt</text>
+
+      <text y="210" fill="#10b981">&gt; AUDIT_TRAIL: sealed SHA-256 [0x7f2a...c8]</text>
+    </g>
+  </g>
+</svg>

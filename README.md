@@ -1,5 +1,7 @@
 ﻿# LLM Security Gateway
 
+![LLM Security Gateway](./assets/thumbnail.svg)
+
 > Document security gateway for AI applications — prompt injection risk analysis, evidence review, and clear decisions: **safe · review · block**.
 
 [![MVP](https://img.shields.io/badge/MVP-V1%20frozen-2026--05--25-blue)]()
